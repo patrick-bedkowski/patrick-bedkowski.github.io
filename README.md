@@ -1,2 +1,2 @@
 ## PORTFOLIO WEBSITE
-#### Visit here: [bedkowski.me](https://dillinger.io/)
+#### Visit here: [bedkowski.me](bedkowski.me)
