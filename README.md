@@ -1,2 +1,2 @@
 ## PORTFOLIO WEBSITE
-#### Visit here: [bedkowski.me](bedkowski.me)
+#### Visit here: [bedkowski.me](www.bedkowski.me)
