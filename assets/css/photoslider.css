@@ -6,7 +6,6 @@
     transform: rotate3d(1, 0, 0, 90deg);
     width: 100%;
     height: 100%;
-    padding: 50px;
     text-align: center;
     position: absolute;
     top: 0;
@@ -15,6 +14,10 @@
     pointer-events: none;
     background-color: rgba(255, 230, 20, 0.95); /* COLOR INSIDE */
     cursor: url('../../images/cursor2.png'), auto;
+}
+
+.info p{
+    padding: 50px;
 }
 
 .in-top .info {
@@ -331,7 +334,7 @@ div.container li h3 {
 
 div.container li p {
     text-align: center;
-    font-size: 18pt;
+    font-size: 1.75em;
     line-height: 1.5;
     color: #434343; /* INSIDE TEXT COLOR */
     cursor: url('../../images/cursor2.png'), auto;
@@ -339,18 +342,31 @@ div.container li p {
 
 
 div.container li .normal {
+    text-align: center;
     width: 100%;
     height: 100%;
+    padding: 1em;
     background-color: #ECF0F1;
     box-shadow: inset 0 2px 20px #bbb;
-    padding: 1em;
     cursor: url('../../images/cursor.png'), auto;
+}
+
+
+div.container li .info .tech {
+    text-align: center;
+    font-size: 1.75em;
+    line-height: 1.5;
+    color: #434343; /* INSIDE TEXT COLOR */
+    position:absolute;
+    width:inherit;
+    text-align: center;
+    bottom:50px;
 }
 
 div.container li .normal { /* EDYCJA TEKSTU W KWADRACIE*/
     color: #5E5D5D; /*rgba(52, 73, 94, 0.6) KOLOR TEKSTU*/
     /*text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;*/
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 3vw;
     text-align: center;
@@ -386,13 +402,20 @@ h1 {
     text-align: center;
     cursor: url('../../images/cursor2.png'), auto;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1380px) {
     .info {
-        padding: 20px;
+        font-size: 10pt;
     }
-
-    div.container li p {
-        font-size: 11pt;
+    .container li .info p{
+        padding: 30px;
+    }
+    div.container li .info .tech {
+        bottom:30px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .container li .info p{
+        font-size: 16pt;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -423,7 +446,6 @@ h1 {
         float: left;
         width: 100%;
         height: 25vw;
-        margin-right: 6%;
         padding: 0;
         list-style: none;
         text-align: center;
@@ -440,32 +462,49 @@ h1 {
         div.container li p {
             margin: auto;
             text-align: center;
-            width: 150px;
             font-size: 10pt;
             line-height: 1.25;
             cursor: url('../../images/cursor2.png'), auto;
         }
-    .info {
-        padding: 20px;
-    }
 
     div.container li .normal {
         font-size: 3.25vw;
     }
+    .container li .info p{
+        padding: 20px;
+    }
+    div.container li .info .tech {
+        bottom:20px;
+    }
 }
 @media screen and (max-width: 920px) {
-    div.container li p {
-        font-size: 10pt;
+    .container li .info p {
+        font-size: 14pt;
         line-height: 1;
     }
 }
 @media screen and (max-width: 780px) {
-    div.container li p {
-        font-size: 9pt;
-        line-height: 1;
+    .container li .info p {
+        font-size: 13pt;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    div.container li .info .tech {
+        font-size: 13pt;
+        bottom:10px;
     }
 }
 @media screen and (max-width: 736px) {
+
+    .container li .info p {
+        font-size: 25pt;
+        line-height: 1.5;
+        padding: 40px;
+    }
+    div.container li .info .tech {
+        font-size: 25pt;
+        bottom:40px;
+    }
 
     .info {
         -webkit-transform: rotate3d(1, 0, 0, 90deg);
@@ -537,8 +576,14 @@ h1 {
         }
 }
 @media screen and (max-width: 620px) {
-    div.container li p {
+    .container li .info p {
         font-size: 20pt;
+        line-height: 1.5;
+        padding: 30px;
+    }
+    div.container li .info .tech {
+        font-size: 20pt;
+        bottom:30px;
     }
 }
 @media screen and (max-width: 480px) {
