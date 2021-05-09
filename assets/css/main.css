@@ -320,6 +320,14 @@ div.displaynone:after {/*USUN*/
         transition-duration: 0.75s;
     }
     /*email*/
+/* IMG */
+
+.info img{
+    position: relative;
+    display:block;
+    width: 50%;
+    height: 50%;
+}
 
 /* DIVIDER */
 
