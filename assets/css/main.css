@@ -176,7 +176,7 @@ html {
     cursor: url('../../images/cursor2.png'), auto;
 }
 
-#plans-header { /* ELEMENT NADRZ�DNY */
+#plans-header { /* ELEMENT NADRZĘDNY */
     width: 100%;
     text-align: center;
     margin: 0;
@@ -196,6 +196,27 @@ html {
     }
 
         /* Kontakt */
+
+h1 {
+    text-align: center;
+    font-size: 6vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 1vw;
+    color: #111;
+    font-weight: 700;
+    transition-duration: 1s;
+}
+    h1:hover {
+        cursor: url('../../images/cursor2.png'),auto;
+    }
+
+    h1:hover {
+        transition-duration: 1s;
+        letter-spacing: .15em;
+        text-shadow: -2px -2px 2px white, 3px 3px 2px rgb(233, 219, 20);
+    }
 
 h2:hover {
     transition-duration: 1s;
