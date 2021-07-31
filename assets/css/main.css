@@ -144,7 +144,7 @@ html {
         #banner .inner:hover h2{
             transition-duration: 1s;
             letter-spacing: .15em;
-            text-shadow: -0.5px -0.5px 0.5px #111, 1px 1px 1px rgb(219, 136, 12);
+            text-shadow: -0.5px -0.5px 0.5px #111, 1px 1px 1px rgb(94, 184, 176);
         }
 
         #banner i {
