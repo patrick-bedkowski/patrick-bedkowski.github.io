@@ -12,7 +12,7 @@
     left: 0;
     border-radius: 4px;
     pointer-events: none;
-    background-color: rgba(255, 230, 20, 0.95); /* COLOR INSIDE */
+    background-color: rgba(94, 184, 176, 0.95); /* COLOR INSIDE rgba(255, 230, 20, 0.95); */
     cursor: url('../../images/cursor2.png'), auto;
 }
 
